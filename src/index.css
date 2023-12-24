@@ -62,19 +62,20 @@ body {
 
 .game-info {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .game-info ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .game-info li {
   margin: 5px;
+  text-align: right;
 }
 
 .game-info button {
@@ -98,4 +99,3 @@ body {
   margin-top: 20px;
   text-align: center;
 }
-
